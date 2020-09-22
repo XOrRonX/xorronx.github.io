@@ -12,7 +12,7 @@
 	jQuery("#about").click(function(){
 		jQuery('html, body').animate({
 			scrollTop: jQuery('#one').offset().top - 80
-		}, 500);
+		}, 900);
 		jQuery('#one').trigger("click");
 		jQuery('#one').focus();
         jQuery('#one').select();
@@ -30,22 +30,31 @@
 	jQuery("#oneAbout").click(function(){
 		jQuery('html, body').animate({
 			scrollTop: jQuery('#oneExperience').offset().top - 450
-		}, 700);
+		}, 900);
 		jQuery('#oneExperience').focus();
 	});
 
 	jQuery("#oneExperience").click(function(){
 		jQuery('html, body').animate({
 			scrollTop: jQuery('#oneTechnicalKnowledge').offset().top - 450
-		}, 700);
+		}, 900);
 		jQuery('#oneTechnicalKnowledge').focus();
 	});
 
 	jQuery("#oneTechnicalKnowledge").click(function(){
 		jQuery('html, body').animate({
 			scrollTop: jQuery('#four').offset().top - 15
-		}, 700);
+		}, 900);
 		jQuery('#four').focus();
+	});
+
+	jQuery("#getintouch").click(function(){
+		jQuery('html, body').animate({
+			scrollTop: jQuery('#footer').offset().top - 15
+		}, 900);
+		jQuery('#footer').trigger("click");
+		jQuery('#footer').focus();
+        jQuery('#footer').select();
 	});
 
 
